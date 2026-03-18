@@ -1,0 +1,13 @@
+if SHIELD_Enigma_01_Pro
+
+# Basic
+config ZMK_KEYBOARD_NAME
+    default "Enigma_01 Pro"
+
+config ZMK_USB
+	default y
+
+config ZMK_BLE
+	default y
+
+endif
