@@ -1,0 +1,179 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    // 親指キー1.0u
+    layout_a: layout_a {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_01_Pro ThumbKey 1.0u";
+        transform = <&transform_a>;
+        kscan = <&kscan_0>;
+
+        keys = <
+            &key_physical_attrs 100 100 100   0 0 0 0  // RC(6,4)
+            &key_physical_attrs 100 100 200   0 0 0 0  // RC(6,5)
+            &key_physical_attrs 100 100   0 100 0 0 0  // RC(0,1)
+            &key_physical_attrs 100 100 100 100 0 0 0  // RC(0,5)
+            &key_physical_attrs 100 100 200 100 0 0 0  // RC(1,3)
+            &key_physical_attrs 100 100 300 100 0 0 0  // RC(2,0)
+            &key_physical_attrs 100 100 400 100 0 0 0  // RC(2,5)
+            &key_physical_attrs 100 100 500 100 0 0 0  // RC(3,2)
+            &key_physical_attrs 100 100 600 100 0 0 0  // RC(4,0)
+            &key_physical_attrs 100 100 700 100 0 0 0  // RC(4,5)
+            &key_physical_attrs 100 100 800 100 0 0 0  // RC(5,2)
+            &key_physical_attrs 100 100 900 100 0 0 0  // RC(6,0)
+            &key_physical_attrs 100 100   0 200 0 0 0  // RC(0,2)
+            &key_physical_attrs 100 100 100 200 0 0 0  // RC(0,6)
+            &key_physical_attrs 100 100 200 200 0 0 0  // RC(1,4)
+            &key_physical_attrs 100 100 300 200 0 0 0  // RC(2,1)
+            &key_physical_attrs 100 100 400 200 0 0 0  // RC(2,6)
+            &key_physical_attrs 100 100 500 200 0 0 0  // RC(3,4)
+            &key_physical_attrs 100 100 600 200 0 0 0  // RC(4,1)
+            &key_physical_attrs 100 100 700 200 0 0 0  // RC(4,6)
+            &key_physical_attrs 100 100 800 200 0 0 0  // RC(5,3)
+            &key_physical_attrs 100 100 900 200 0 0 0  // RC(6,1)
+            &key_physical_attrs 100 100   0 300 0 0 0  // RC(0,3)
+            &key_physical_attrs 100 100 100 300 0 0 0  // RC(1,0)
+            &key_physical_attrs 100 100 200 300 0 0 0  // RC(1,5)
+            &key_physical_attrs 100 100 300 300 0 0 0  // RC(2,3)
+            &key_physical_attrs 100 100 400 300 0 0 0  // RC(3,0)
+            &key_physical_attrs 100 100 500 300 0 0 0  // RC(3,5)
+            &key_physical_attrs 100 100 600 300 0 0 0  // RC(4,2)
+            &key_physical_attrs 100 100 700 300 0 0 0  // RC(5,0)
+            &key_physical_attrs 100 100 800 300 0 0 0  // RC(5,4)
+            &key_physical_attrs 100 100 900 300 0 0 0  // RC(6,2)
+            &key_physical_attrs 100 100   0 400 0 0 0  // RC(0,4)
+            &key_physical_attrs 100 100 100 400 0 0 0  // RC(1,2)
+            &key_physical_attrs 100 100 200 400 0 0 0  // RC(1,6)
+            &key_physical_attrs 100 100 300 400 0 0 0  // RC(2,4)
+            &key_physical_attrs 100 100 400 400 0 0 0  // RC(3,1)
+            &key_physical_attrs 100 100 500 400 0 0 0  // RC(3,6)
+            &key_physical_attrs 100 100 600 400 0 0 0  // RC(4,3)
+            &key_physical_attrs 100 100 700 400 0 0 0  // RC(5,1)
+            &key_physical_attrs 100 100 800 400 0 0 0  // RC(5,6)
+            &key_physical_attrs 100 100 900 400 0 0 0  // RC(6,3)
+        >;
+    };
+
+    // 親指キー1.5u
+    layout_b: layout_b {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_01_Pro ThumbKey 1.5u";
+        transform = <&transform_bc>;
+        kscan = <&kscan_0>;
+
+        keys = <
+            &key_physical_attrs 100 100 100   0 0 0 0  // RC(6,4)
+            &key_physical_attrs 100 100 200   0 0 0 0  // RC(6,5)
+            &key_physical_attrs 100 100   0 100 0 0 0  // RC(0,1)
+            &key_physical_attrs 100 100 100 100 0 0 0  // RC(0,5)
+            &key_physical_attrs 100 100 200 100 0 0 0  // RC(1,3)
+            &key_physical_attrs 100 100 300 100 0 0 0  // RC(2,0)
+            &key_physical_attrs 100 100 400 100 0 0 0  // RC(2,5)
+            &key_physical_attrs 100 100 500 100 0 0 0  // RC(3,2)
+            &key_physical_attrs 100 100 600 100 0 0 0  // RC(4,0)
+            &key_physical_attrs 100 100 700 100 0 0 0  // RC(4,5)
+            &key_physical_attrs 100 100 800 100 0 0 0  // RC(5,2)
+            &key_physical_attrs 100 100 900 100 0 0 0  // RC(6,0)
+            &key_physical_attrs 100 100   0 200 0 0 0  // RC(0,2)
+            &key_physical_attrs 100 100 100 200 0 0 0  // RC(0,6)
+            &key_physical_attrs 100 100 200 200 0 0 0  // RC(1,4)
+            &key_physical_attrs 100 100 300 200 0 0 0  // RC(2,1)
+            &key_physical_attrs 100 100 400 200 0 0 0  // RC(2,6)
+            &key_physical_attrs 100 100 500 200 0 0 0  // RC(3,4)
+            &key_physical_attrs 100 100 600 200 0 0 0  // RC(4,1)
+            &key_physical_attrs 100 100 700 200 0 0 0  // RC(4,6)
+            &key_physical_attrs 100 100 800 200 0 0 0  // RC(5,3)
+            &key_physical_attrs 100 100 900 200 0 0 0  // RC(6,1)
+            &key_physical_attrs 100 100   0 300 0 0 0  // RC(0,3)
+            &key_physical_attrs 100 100 100 300 0 0 0  // RC(1,0)
+            &key_physical_attrs 100 100 200 300 0 0 0  // RC(1,5)
+            &key_physical_attrs 100 100 300 300 0 0 0  // RC(2,3)
+            &key_physical_attrs 100 100 400 300 0 0 0  // RC(3,0)
+            &key_physical_attrs 100 100 500 300 0 0 0  // RC(3,5)
+            &key_physical_attrs 100 100 600 300 0 0 0  // RC(4,2)
+            &key_physical_attrs 100 100 700 300 0 0 0  // RC(5,0)
+            &key_physical_attrs 100 100 800 300 0 0 0  // RC(5,4)
+            &key_physical_attrs 100 100 900 300 0 0 0  // RC(6,2)
+            &key_physical_attrs 100 100   0 400 0 0 0  // RC(0,4)
+            &key_physical_attrs 100 100 100 400 0 0 0  // RC(1,2)
+            &key_physical_attrs 100 100 200 400 0 0 0  // RC(1,6)
+            &key_physical_attrs 150 100 300 400 0 0 0  // RC(2,4)
+            &key_physical_attrs 100 100 450 400 0 0 0  // RC(3,1)
+            &key_physical_attrs 150 100 550 400 0 0 0  // RC(4,3)
+            &key_physical_attrs 100 100 700 400 0 0 0  // RC(5,1)
+            &key_physical_attrs 100 100 800 400 0 0 0  // RC(5,6)
+            &key_physical_attrs 100 100 900 400 0 0 0  // RC(6,3)
+        >;
+    };
+
+    // 親指キー2.0u
+    layout_c: layout_c {
+        compatible = "zmk,physical-layout";
+        display-name = "Enigma_01_Pro ThumbKey 2.0u";
+        transform = <&transform_bc>;
+        kscan = <&kscan_0>;
+
+        keys = <
+            &key_physical_attrs 100 100 100   0 0 0 0  // RC(6,4)
+            &key_physical_attrs 100 100 200   0 0 0 0  // RC(6,5)
+            &key_physical_attrs 100 100   0 100 0 0 0  // RC(0,1)
+            &key_physical_attrs 100 100 100 100 0 0 0  // RC(0,5)
+            &key_physical_attrs 100 100 200 100 0 0 0  // RC(1,3)
+            &key_physical_attrs 100 100 300 100 0 0 0  // RC(2,0)
+            &key_physical_attrs 100 100 400 100 0 0 0  // RC(2,5)
+            &key_physical_attrs 100 100 500 100 0 0 0  // RC(3,2)
+            &key_physical_attrs 100 100 600 100 0 0 0  // RC(4,0)
+            &key_physical_attrs 100 100 700 100 0 0 0  // RC(4,5)
+            &key_physical_attrs 100 100 800 100 0 0 0  // RC(5,2)
+            &key_physical_attrs 100 100 900 100 0 0 0  // RC(6,0)
+            &key_physical_attrs 100 100   0 200 0 0 0  // RC(0,2)
+            &key_physical_attrs 100 100 100 200 0 0 0  // RC(0,6)
+            &key_physical_attrs 100 100 200 200 0 0 0  // RC(1,4)
+            &key_physical_attrs 100 100 300 200 0 0 0  // RC(2,1)
+            &key_physical_attrs 100 100 400 200 0 0 0  // RC(2,6)
+            &key_physical_attrs 100 100 500 200 0 0 0  // RC(3,4)
+            &key_physical_attrs 100 100 600 200 0 0 0  // RC(4,1)
+            &key_physical_attrs 100 100 700 200 0 0 0  // RC(4,6)
+            &key_physical_attrs 100 100 800 200 0 0 0  // RC(5,3)
+            &key_physical_attrs 100 100 900 200 0 0 0  // RC(6,1)
+            &key_physical_attrs 100 100   0 300 0 0 0  // RC(0,3)
+            &key_physical_attrs 100 100 100 300 0 0 0  // RC(1,0)
+            &key_physical_attrs 100 100 200 300 0 0 0  // RC(1,5)
+            &key_physical_attrs 100 100 300 300 0 0 0  // RC(2,3)
+            &key_physical_attrs 100 100 400 300 0 0 0  // RC(3,0)
+            &key_physical_attrs 100 100 500 300 0 0 0  // RC(3,5)
+            &key_physical_attrs 100 100 600 300 0 0 0  // RC(4,2)
+            &key_physical_attrs 100 100 700 300 0 0 0  // RC(5,0)
+            &key_physical_attrs 100 100 800 300 0 0 0  // RC(5,4)
+            &key_physical_attrs 100 100 900 300 0 0 0  // RC(6,2)
+            &key_physical_attrs 100 100   0 400 0 0 0  // RC(0,4)
+            &key_physical_attrs 100 100 100 400 0 0 0  // RC(1,2)
+            &key_physical_attrs 100 100 200 400 0 0 0  // RC(1,6)
+            &key_physical_attrs 100 100 300 400 0 0 0  // RC(2,4)
+            &key_physical_attrs 200 100 400 400 0 0 0  // RC(3,1)
+            &key_physical_attrs 100 100 600 400 0 0 0  // RC(4,3)
+            &key_physical_attrs 100 100 700 400 0 0 0  // RC(5,1)
+            &key_physical_attrs 100 100 800 400 0 0 0  // RC(5,6)
+            &key_physical_attrs 100 100 900 400 0 0 0  // RC(6,3)
+        >;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        map_a: map_a {
+            physical-layout = <&layout_a>;
+            positions = <38>;
+        };
+
+        map_b: map_b {
+            physical-layout = <&layout_b>;
+            positions = <37>;
+        };
+
+        map_c: map_c {
+            physical-layout = <&layout_c>;
+            positions = <37>;
+        };
+    };
+};
