@@ -1,0 +1,11 @@
+file_format: "1"
+id: Enigma_01 Pro
+name: Enigma_01 Pro
+type: shield
+url: "https://github.com/nazuna293/zmk-keyboard-Enigma_01_Pro"
+requires:
+  - seeeduino_xiao_ble
+features:
+  - keys
+  - encoder
+  - studio
