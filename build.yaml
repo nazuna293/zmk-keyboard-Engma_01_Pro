@@ -1,0 +1,15 @@
+include:
+  - board: seeeduino_xiao_ble
+    shield: Enigma_01_Pro Enigma_01_Pro_a rgbled_adapter
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: Enigma_01 Pro layout_a
+    
+  - board: seeeduino_xiao_ble
+    shield: Enigma_01_Pro Enigma_01_Pro_b rgbled_adapter
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: Enigma_01 Pro layout_b
+    
+  - board: seeeduino_xiao_ble
+    shield: Enigma_01_Pro Enigma_01_Pro_c rgbled_adapter
+    snippet: zmk-usb-logging studio-rpc-usb-uart
+    artifact-name: Enigma_01 Pro layout_c
