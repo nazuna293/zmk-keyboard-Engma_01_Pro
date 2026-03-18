@@ -1,0 +1,11 @@
+#include "Enigma_01_Pro.overlay"
+
+/{
+    chosen {
+        zmk,physical-layout = &layout_c;
+    };
+};
+
+&encoder_0 {
+    status = "okay";
+};
